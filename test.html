@@ -73,8 +73,8 @@
       $("#controls").submit(function() {    
         new AhaApi({
           accountDomain: $("#subdomain").val(),
-          clientId: "", // NOTE: replace this with your client ID.
-          redirectUri: ""
+          clientId: "0946cbee76e99936cec17d91f47ad3e89646e8d0577aadaa487b4c9a09bfa678", // NOTE: replace this with your client ID.
+          redirectUri: "https://shashank-bhat.github.io/test.html"
         }).authenticate(function(api, success, message) {
           var productKey = $("#product-key").val();
           
